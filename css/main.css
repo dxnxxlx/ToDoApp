@@ -1,0 +1,80 @@
+body{
+	overflow: hidden;
+}
+header{
+	background-color: #FFE4C4;
+	padding-bottom: 15px;
+	position: fixed;
+	width: 100%;
+}
+.cabecera{
+	background: #312929;
+	width: 100%;
+}
+h2{
+	font-family: 'Exo';
+	font-weight: 900;
+	margin: 0;
+	margin-bottom: 15px;
+	color: #E8E4C0;
+	padding: 15px 0;
+}
+textarea{
+	width: 97%;
+	margin: auto;
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+textarea:focus{
+	outline: none;
+    outline-style: dotted;
+    outline-color: #FFFFFF;
+}
+
+.tarea{
+
+}
+
+#tareaButton{
+    border-style: none;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 7px 16px;
+    font-size: 13px;
+    font-family: 'Exo';
+    font-weight: 900;
+    line-height: 1.5;
+    border-radius: 13px;
+    margin-left: 1.5%;
+}
+#tareaButton:focus {
+	outline: none;
+	border: 1px solid #A2A2A2;
+
+}
+
+#tareaButton i {
+	padding-right: 15px;
+}
+.lista{
+	padding-top: 195px;
+}
+#tareas{
+	height: 321px;
+	padding: 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+
+}
+.singleTarea{
+	background-color: #FFE4C4;
+	font-family: 'Exo';
+	font-size: 14px;
+	font-weight: 400;
+	padding: 5px;
+	border: 1px solid #312929;
+	border-radius: 7px;
+	margin-bottom: 7px;
+}
