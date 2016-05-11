@@ -39,8 +39,8 @@ textarea:focus{
 #tareaButton{
     border-style: none;
     color: #333;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #F34767;
+    border: none;
     padding: 7px 16px;
     font-size: 13px;
     font-family: 'Exo';
@@ -77,4 +77,33 @@ textarea:focus{
 	border: 1px solid #312929;
 	border-radius: 7px;
 	margin-bottom: 7px;
+}
+.texto-tarea{
+	display: inline-block;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.btn-tacho{
+    float: right;
+    background-color: crimson;
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.check{
+	background-color: crimson;
+}
+
+.btn-estrella{
+	float: right;
+	background-color: orange;
+	margin-top: 3px;
+	margin-right: 20px;
+	border-style: none;
+	border-radius: 50px;
+}
+.caja-resaltada{
+	background-color: yellow;
+	border: 1px solid yellow;
 }
